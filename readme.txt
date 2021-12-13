@@ -29,9 +29,17 @@ git remote -v
 upload git push -> nama remote -> master (git push remote-github master)
 git push --set-upstream origin master
 
----Download
+Download---------------------------
 Local - Online = git remote
 1. Link 
 2. git remote add 'nama' link
 3. git pull 'nama' master
-----Modify | Update
+
+Modify | Update--------------------
+1. git add namefile / .
+2. git commit -m 'text'
+3. git push 
+
+Checkout---------------------------
+Kembali ke versi sblmnya
+git checkout 'hash'
